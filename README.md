@@ -6,7 +6,7 @@ Primer versión del algoritmo de macheo de pacientes.
 
 Precondiciones:
 - El algoritmo espera 3 parámetros (objetos json). Los primeros dos son pacientes y el 3ero es un json con los pesos de los campos a comparar.
-- El algoritmo no chequea errores o faltantes en dichos json. Supone que los objetos json son completos y correctos.ond
+- El algoritmo no chequea errores o faltantes en dichos json. Supone que los objetos json son completos y correctos.
 - Debe incluirse el archivo match.js antes de ser invocada la función.
 
 PostCondiciones:
@@ -20,8 +20,8 @@ Los objetos JSON de pacientes tienen la siguiente estructura
 		given: "a name",
 		family: "a surname"
 	},
-	gender: "male",
-	birthDate: '01-01-1980'
+	gender: "a gender",
+	birthDate: 'a date as string'
 };`
 
 El objeto JSON de los pesos tiene la siguiente estructura
@@ -35,6 +35,6 @@ Ejemplo:
 	birthDate: 0.1
 };`
 # Cómo usarlo y probarlo
-- Descargar los archivos desde https://github.com/sychus/patientmatch.git
+- Desde la consola ejecutar git clone https://github.com/sychus/patientmatch.git
 - Luego en el directorio donde hemos bajado los archivos, ejecutamos npm install
 - Ejecutamos el programa: node test.js
