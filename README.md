@@ -29,10 +29,10 @@ El objeto JSON de los pesos tiene la siguiente estructura
 Ejemplo:
 
 `weights = {
-	identity: 0.2,
-	name: 0.3,
-	gender: 0.4,
-	birthDate: 0.1
+	identity: 0.3,
+	name: 0.2,
+	gender: 0.3,
+	birthDate: 0.2
 };`
 # Cómo usarlo y probarlo
 - Desde la consola ejecutar git clone https://github.com/sychus/patientmatch.git
