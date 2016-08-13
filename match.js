@@ -21,7 +21,12 @@ function minLargo (stringAMin, stringBMin) {
 	}
 }
 
-//Compara los caracteres de 2 strings
+/**
+ * @description stringMatching - Devuelve la cantidad de coincidencias sobre la mayor longitud
+ * @param {string} stringA - unString
+ * @param {string} stringB - unString
+ * @author Hugo Fernández hfernandez@neuquen.gov.ar 
+ */
 function stringMatching (stringA, stringB) {
 	var stringAMin = stringA.toLowerCase();
 	var stringBMin = stringB.toLowerCase();
@@ -39,7 +44,12 @@ function stringMatching (stringA, stringB) {
 	return coincidencias / maxLen;
 }
 
-//Compara los códigos de sexo de los pacientes
+/**
+ * @description sexMatching - Devuelve 1 si los datos son idénticos
+ * @param {string} sexA - sexo del pacienteA
+ * @param {string} sexB - sexo del pacienteB
+ * @author Hugo Fernández hfernandez@neuquen.gov.ar 
+ */
 function sexMatching (sexA, sexB){
 	if (sexA == sexB)
 		return 1
@@ -48,7 +58,7 @@ function sexMatching (sexA, sexB){
 }
 
 /**
- * @description Devuelve 1 si los identificadores son idénticos
+ * @description identityMatching - Devuelve 1 si los identificadores son idénticos
  * @param {int} idA - Documento del pacienteA
  * @param {int} idB - Documento del pacienteB
  * @author Hugo Fernández hfernandez@neuquen.gov.ar 
