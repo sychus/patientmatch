@@ -1,5 +1,5 @@
 # Macheo de pacientes
-Primer versión del algoritmo de macheo de pacientes.
+Algoritmo de macheo de pacientes.
 
 # Resumen
 > El algoritmo devuelve un valor entre 0 y 1 como resultado de su ejecución. Mientras más cercano a 1 es el resultado mayor es la igualdad entre los objetos comparados.
