@@ -17,8 +17,8 @@ la idea es comparar un set de datos básicos.
 var pacienteA = {
 	identity: 302569851,
 	name: {
-		given: "Gonzalo",
-		family: "Carranza"
+		given: "Gonzelo",
+		family: "Caranza"
 	},
 	gender: "male",
 	birthDate: '01-01-1980'
