@@ -70,7 +70,9 @@ function identityMatching(idA, idB) {
 		return 0
 
 }
-
+/*
+Falta documentar esa parte
+*/
 function levenshtein(stringA, stringB) {
 	var s1 = stringA.toLowerCase();
 	var s2 = stringB.toLowerCase();
